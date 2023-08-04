@@ -1,4 +1,5 @@
 /* место для вашего кода */
+
 .header{
     margin-top: 92px;
     margin-left: 51px;
@@ -6,7 +7,8 @@
 }
 
 .header__container {
-    width: 1340px;
+    width: 100%;
+    min-width: 1340px;
     min-height: 109px;
     display: flex;
     justify-content: space-between;
@@ -62,4 +64,123 @@
 
 .address__info {
     cursor: pointer;
+}
+
+
+/*SECTION COVER*/
+.cover {
+    background: url(../images/cover.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 757px;
+    width: 100%;
+    min-width: 1440px;
+    margin-top: 92px;
+    margin-bottom: 180px;
+    position: relative;
+
+}
+
+.cover::before {
+    content: "";
+    background-color: #000;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    opacity: 0.6;
+}
+/*
+.overlay {
+    position: relative;
+}
+.overlay::before {
+    content: "";
+    background-color: #2A2C2F;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    opacity: 0.6;
+}
+*/
+.cover__title {
+    position: relative;
+
+    display: flex;
+    flex-direction: column;
+    padding-top: 165px;
+    width: 100%;
+    max-width: 1340px;
+    margin-left: 50px;
+
+}
+
+.aligned-text {
+    color: #FFF;
+    font-size: 100px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 115px;
+    letter-spacing: 30px;
+    text-transform: uppercase;
+    padding-bottom: 15px;
+}
+
+
+.aligned-text_center {
+    width: 100%;
+    max-width: 1310px;
+    text-align: center;
+    line-height: 110px;    
+}
+
+.aligned-text_right {
+    width: 100%;
+    max-width: 1310px;
+    text-align: end;  
+    line-height: 110px;    
+margin-left: 30px;
+}
+
+.letter-spacing-extended {
+    margin-left: 25px;
+}
+
+.no-letter-spacing {
+    letter-spacing: 0;
+}
+
+.cover__description {
+    position: relative;
+
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding-top: 105px;
+
+}
+
+.cover__description-text {
+    color: #FFF;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; /* 127.273% */
+    text-transform: uppercase;
+    word-spacing: 20px;
+
+}
+
+.bet-button {
+    color: #FFF;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+    background-color: transparent;
+    width: 257px;
+    height: 52px;
+    border: 1px solid #FFF;
+    margin-left: 78px;
+    margin-right: 50px;
 }

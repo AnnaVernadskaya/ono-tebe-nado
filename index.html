@@ -30,7 +30,7 @@
           </nav>
 
           <a class="header__logo ">
-            <img class="header__logo-image" src="./images/logo-black.svg">
+            <img class="header__logo-image" src="./images/logo-black.svg" alt="Логотип аукциона">
           </a>
 
           <address>
@@ -45,12 +45,66 @@
       </div>
     </header>
     
-    
-    
     <main>
-      <section class="cover"></section>
-      <section class="lots"></section>
-      <section class="about "></section>
+      <section class="cover">
+        <div class="overlay">
+          <!--aligned-text, aligned-text_center и aligned-text_right — классы для выравнивания строк текста и превращения их в блочный элемент;
+letter-spacing-extended — класс для управления межбуквенным расстоянием в местах, где есть эти акценты;
+no-letter-spacing — класс для обнуления общего межбуквенного расстояния для последней буквы;-->
+        <h1 class="cover__title">
+          <span class="aligned-text">он<span class="letter-spacing-extended">о</span></span>
+          <span class="aligned-text aligned-text_center">теб<span class="letter-spacing-extended">е</span></span>
+          <span class="aligned-text aligned-text_right">н<span class="letter-spacing-extended">ад</span><span class="no-letter-spacing ">о</span></span>
+        </h1>
+
+
+
+
+
+        <div class="cover__description">
+        <p class="cover__description-text">Аукцион    вещей,    в    которые    никто    не     верил</p>
+        <button class="bet-button">Сделать ставку</button>
+      </div></div>
+      </section>
+    
+    
+    
+      <section class="lots">
+        <h2 class="lots__heading">лоты</h2>
+
+
+        <ul class="lots__card-list">
+          <li class="lots__card-list-item">
+            <a class="card-link"></a>
+          <article class="card card_type_film">
+            <h3 class="card__title"></h3>
+            <p class="card__text"></pc>
+          </article>
+        </li>
+
+        <li class="lots__card-list-item">
+          <a class="card-link"></a>
+        <article class="card card_type_book">
+          <h3 class="card__title"></h3>
+          <p class="card__text"></pc>
+        </article>
+      </li>
+
+      <li class="lots__card-list-item">
+        <a class="card-link"></a>
+      <article class="card card_type_picture">
+        <h3 class="card__title"></h3>
+        <p class="card__text"></pc>
+      </article>
+    </li>
+        </ul>
+
+        <a class="lots__look-more-link" href="#">посмотреть больше</a>
+      </section>
+
+
+
+      <section class="about"></section>
     </main>
     <footer class="footer"></footer>
   </div>
