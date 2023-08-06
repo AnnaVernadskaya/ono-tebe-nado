@@ -1,0 +1,19 @@
+.bet-button {
+  color: #fff;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+  background-color: transparent;
+  width: 257px;
+  height: 52px;
+  border: 1px solid #fff;
+  margin-left: 78px;
+  margin-right: 50px;
+  cursor: pointer;
+}
+
+.bet-button:hover {
+  opacity: 0.5;
+}

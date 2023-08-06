@@ -1,0 +1,7 @@
+.about__column {
+  display: grid;
+  column-gap: 25px;
+  grid-template-columns: 430px 1fr;
+  padding-left: 50px;
+  padding-right: 50px;
+}

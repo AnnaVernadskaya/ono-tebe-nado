@@ -1,0 +1,7 @@
+.footer__social-link {
+  cursor: pointer;
+}
+
+.footer__social-link:hover {
+  opacity: 0.5;
+}

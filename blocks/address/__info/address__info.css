@@ -1,0 +1,8 @@
+.address__info {
+  cursor: pointer;
+}
+
+.address__info:hover {
+  text-decoration: none;
+  opacity: 0.5;
+}

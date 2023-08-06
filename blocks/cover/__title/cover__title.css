@@ -1,0 +1,9 @@
+.cover__title {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  padding-top: 165px;
+  width: 100%;
+  max-width: 1340px;
+  margin-left: 50px;
+}

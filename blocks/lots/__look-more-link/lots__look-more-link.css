@@ -1,0 +1,12 @@
+.lots__look-more-link {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-left: 90px;
+}
+
+.lots__look-more-link:hover {
+  text-decoration: none;
+  opacity: 0.5;
+}

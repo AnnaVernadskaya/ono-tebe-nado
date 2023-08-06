@@ -1,0 +1,7 @@
+.cover__description {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  padding-top: 105px;
+}
